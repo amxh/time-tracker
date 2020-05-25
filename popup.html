@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        Time Tracker
+    </title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" type="text/css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+
+<body>
+    <div class="modal-header">
+        <h1 class="logo">
+            <img src="images/logo.png" alt="Time Tracker" class="logo-icon"> Time Tracker <span
+                class="version">(1.0.0)</span>
+        </h1>
+    </div>
+    <div class="container">
+        <p>The website being tracked: </p>
+        <form>
+            <label for="website">Switch website:</label>
+            <input type="url" id="website" name="website">
+            <input type="submit" value="Submit">
+          </form>
+    </div>
+    <div class="container">
+        <p>Time spent on this website today: </p>
+        <div id="display">
+            10:00:00
+        </div>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
